@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Приглошение на свадьбу</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="icon" href="icons/favicon_io/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg fixed-top navbar-light">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#love">О нас</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#schedule">Программа дня</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#register">Церемония</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#rest">Свадебный ужин</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<main class="main">
+		<div class="boss-image">
+			<div class="container">
+				<div class="boss-image__img">
+					<div class="timer" id="timer">
+						<div class="timer__title">
+							<h2><span>Людмила</span>
+								<span class="heart"></span>
+								<span>Никита</span>
+							</h2>
+							<h3><span>05.08.2023</span></h3>
+						</div>
+						<div class="timer__items">
+							<div class="timer__item timer__days">00</div>
+							<div class="timer__item timer__hours">00</div>
+							<div class="timer__item timer__minutes">00</div>
+							<div class="timer__item timer__seconds">00</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="love" id="love">
+			<div class="container">
+				<div class="love__wrapper">
+					<div class="love__info">
+						<p>
+							Дорогие друзья!
+							<br>
+							Жить, любить, чувствовать. Однажды мы поняли, что нет ничего важнее этого. И что идти дальше
+							мы
+							хотим только вместе. А теперь мечтаем, чтобы день нашей свадьбы стал красивым и ярким
+							событием на
+							этом увлекательном пути.
+							<br>
+							Мы будем очень рады, если вы разделите этот счастливый день с нами.
+							<br>
+							Увидимся на нашей свадьбе!
+						</p>
+					</div>
+					<div class="love__images">
+						<div class="item">
+							<img src="image/2.png" alt="bride">
+						</div>
+						<div class="item">
+							<img src="image/1.png" alt="groom">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="schedule" id="schedule">
+			<div class="container">
+				<div class="schedule__wrapper">
+					<div class="schedule__title">
+						Программа свадебного дня
+					</div>
+					<div class="schedule__list">
+						<ul>
+							<li class="current-day">
+								<h3>05 августа 2023 г.</h3>
+							</li>
+							<li>
+								<div class="schedule__datetime">
+									<h3>11:00</h3>
+								</div>
+								<div class="schedule__details">
+									<h3>Свадебная фотосессия</h3>
+									<p class="description js-emoji-included">Фотосессия проходит в центре города</p>
+									<p class="addr">
+										<span class="value" data-id="4">Россия, Воронеж, ул. пр-кт Революции</span>
+									</p>
+								</div>
+							</li>
+							<li class="timeline-divider">○</li>
+							<li>
+								<div class="schedule__datetime">
+									<h3>14:00</h3>
+								</div>
+								<div class="schedule__details">
+									<h3>Подготовка к регистрации</h3>
+									<p class="description js-emoji-included">Подготовка жениха и невесты с гостями</p>
+									<p class="addr">
+										<span class="value" data-id="4">Воронеж, пл. Ленина, 11</span>
+									</p>
+								</div>
+							</li>
+							<li class="timeline-divider">○</li>
+							<li>
+								<div class="schedule__datetime">
+									<h3>16:00</h3>
+								</div>
+								<div class="schedule__details">
+									<h3>Свадебная церемония</h3>
+									<p class="description js-emoji-included">Присутствие по желанию</p>
+									<p class="addr">
+										<span class="value" data-id="4">Воронеж, пл. Ленина, 11</span>
+									</p>
+								</div>
+							</li>
+							<li class="timeline-divider">○</li>
+							<li>
+								<div class="schedule__datetime">
+									<h3>18:00</h3>
+								</div>
+								<div class="schedule__details">
+									<h3>Свадебный ужин</h3>
+									<!-- <p class="description js-emoji-included">Фотосессия в отеле Radisson Collection Hotel</p> -->
+									<p class="addr">
+										<span class="value" data-id="4">Воронеж, ул. Карла Маркса, 67/1 </span>
+									</p>
+								</div>
+							</li>
+							<li class="timeline-divider">○</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="maps" id="maps">
+			<div class="comtainer">
+				<div class="maps__wrapper">
+					<div class="maps__item" id="register">
+						<h2>Церемония</h2>
+						<h3>ЗАГС Центрального района</h3>
+						<p>Воронеж, пл. Ленина, 11</p>
+					</div>
+					<div class="maps__image">
+						<img src="image/background/bottom_sheet.png" alt="bottom_sheet">
+					</div>
+					<div class="maps__point">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2474.8339733035914!2d39.20024737693243!3d51.66287609933312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x413b2ef9ab9ad919%3A0x7e9992912f723697!2z0JfQkNCT0KEg0KbQtdC90YLRgNCw0LvRjNC90L7Qs9C-INGA0LDQudC-0L3QsA!5e0!3m2!1sru!2sru!4v1688908866096!5m2!1sru!2sru"
+							width="100%" height="450" style="border:0;" allowfullscreen="true" loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+					<div class="maps__item" id="rest">
+						<h2><span>СВАДЕБНЫЙ УЖИН</span></h2>
+						<h3>Ресторан</h3>
+						<p>Воронеж, ул. Карла Маркса, 67/1</p>
+					</div>
+					<div class="maps__image">
+						<img src="image/background/bottom_sheet.png" alt="bottom_sheet">
+					</div>
+					<div class="maps__point">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1749.7665991066617!2d39.19813941615664!3d51.6681911058158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x413b2ee334335039%3A0x1946f27e3414797f!2sVASILCHUKI%20Chaihona!5e0!3m2!1sru!2sru!4v1688909146700!5m2!1sru!2sru"
+							width="100%" height="450" style="border:0;" allowfullscreen="true" loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<a class="scroll-to-top-button" href="#top"><img src="icons/arrow.png" alt="top-arrow"></a>
+
+	</main>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+	<script src="js/scroll.js"></script>
+	<script src="js/timer.js"></script>
+
+</body>
+
+</html>
